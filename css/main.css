@@ -56,19 +56,104 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.container1080 {
+    width: 1080px;
+    margin: 0 auto;
+}
 
+.purple--bg {
+    background-color: #3f3999;
+}
 
+.green--btn {
+    background-color: #44b312;
+}
 
+.tahoma {
+   font-family: tahoma;
+}
 
+/* HEADER */
 
+.header .container1080 {
+ 
+}
 
+.header-right-info {
+   background-position: center right;
+    background: url("../img/header-bg.jpg") no-repeat;
+    position: relative;
+    float: left;
+   width: 807px;
+   height: 233px;
+}
 
+.req__call__btn {
+    width: 240px;
+    height: 60px;
+    text-align: center;
+    float: right;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: tahoma;
+    color: #fff;
+    border-radius: 10px;
+    line-height: 2.8;
+    margin-top: 30px;
+}
 
+.top-menu {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 
+}
 
+.top-menu__li {
+    display: inline-block;
 
+}
 
+.top-menu__li.li--sep {
+    color: #fff;
+    font-family: Tahoma;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 20px;
+    
+}
 
+.top-menu__link {
+    color: #fff;
+    font-family: Tahoma;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.header-contacts {
+    float: right;
+    margin-top: 80px;
+
+}
+
+.logo {
+    height: 233px;
+    float: left;
+
+}
+
+.header__phone {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+/* END HEADER */
 
 /* ==========================================================================
    Media Queries
