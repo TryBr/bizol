@@ -59,6 +59,7 @@ textarea {
 .container1080 {
     width: 1080px;
     margin: 0 auto;
+    position: relative;
 }
 
 .purple--bg {
@@ -193,8 +194,8 @@ td.production-item {
 
 .production-items-container {
     display: block;
-    padding-bottom: 10px;
     padding-top: 10px;
+    padding-bottom: 50px;
 
 }
 
@@ -202,6 +203,7 @@ td.production-item {
     color: #777777;
     font-size: 39px;
     text-align: center;
+    font-weight: normal;
 }
 
 .white-infoblock .company__text {
@@ -211,7 +213,125 @@ td.production-item {
     line-height: 2;
 }
 
+.white-infoblock {
+    background: url('../img/white-infoblock-bg.jpg') no-repeat center center;
+}
+
 /* END WHITE INFOBLOCK*/
+
+
+
+/* MF INFOBLOCK 1 */
+
+.mf-infoblock {
+    padding-bottom: 50px;
+}
+
+.mf-left-info {
+    float: left;
+    width: 565px;
+    color: #fff;
+    font-family: "Tahoma";
+    margin-right: 35px;
+}
+
+.mf-right-info {
+    width: 480px;
+    float: left;
+    color: #fff;
+    font-family: "Tahoma";
+}
+
+.mf-options-list {
+    margin-top: 156px;
+}
+
+.mf-options-item {
+    color: #fff;
+    clear: both;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.mf-item-img-container {
+    float: left;
+    width: 93px;
+    margin-right: 20px;
+}
+
+.mf-option-item__text {
+    float: right;
+    width: 366px;
+}
+
+.mf__title {
+    font-size: 41px;
+    font-weight: normal;
+}
+
+.mf-left-info p {
+    font-size: 20px;
+}
+
+.mf--btn {
+    float: left;
+    margin-left: 113px;
+    clear: both;
+    margin-bottom: 100px;
+}
+
+.mf-annotation__text {
+    float: left;   
+}
+
+.mf__img {
+    margin-top: 140px;
+}
+
+.plus__btn {
+    position: absolute;
+    bottom: -98px;
+    right: -54px;
+    z-index: 10;
+}
+
+/* END MF INFOBLOCK*/
+
+
+/* MF INFOBLOCK INVERT */
+.mf-infoblock--invert .mf-left-info {
+    float: right;
+    margin-right: 0;
+    margin-left: 35px;
+    
+}
+
+.mf-infoblock--invert .mf-right-info {
+
+}
+
+.mf-infoblock-2 {
+    background: url('../img/mf-infoblock-2-bg.jpg') no-repeat;
+    padding-top: 14px;
+    background-position: 100% 100%;
+}
+
+.mf-infoblock-2 .mf__title {
+    margin-top: 0;
+}
+
+.mf-infoblock-2 .mf__img {
+    margin-top: 20px;
+}
+
+.mf-option-item__text a {
+    color: #44b312;
+}
+
+.mf-infoblock-3 .mf__img {
+    margin-top: 50px;
+
+}
 
 /* ==========================================================================
    Media Queries
