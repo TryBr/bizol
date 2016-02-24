@@ -134,6 +134,10 @@ textarea {
     text-decoration: none;
 }
 
+.top-menu__link:hover {
+    text-decoration: underline;
+}
+
 .header-contacts {
     float: right;
     margin-top: 80px;
@@ -154,6 +158,60 @@ textarea {
 }
 
 /* END HEADER */
+
+
+
+/* WHITE INFOBLOCK */
+
+td.production-item {
+    width: 360px;
+    color: #666666;
+    font-family: tahoma;
+}
+
+.production-item .item-img-container {
+    float: left;
+    width: 93px;
+    margin-right: 20px;
+
+}
+
+.production-item .item-info {
+    float: left;
+    width: 246px;
+}
+
+.production-item .item-info .item__title {
+    font-size: 22px;
+}
+
+.production-item .item-info .item__description {
+    font-size: 19px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.production-items-container {
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.white-infoblock .company__name {
+    color: #777777;
+    font-size: 39px;
+    text-align: center;
+}
+
+.white-infoblock .company__text {
+    color: #777777;
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+}
+
+/* END WHITE INFOBLOCK*/
 
 /* ==========================================================================
    Media Queries
