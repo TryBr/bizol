@@ -62,6 +62,13 @@ textarea {
     position: relative;
 }
 
+.container1320 {
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+    background: url("../img/table-bg.jpg") no-repeat center center;
+}
+
 .purple--bg {
     background-color: #3f3999;
 }
@@ -76,6 +83,10 @@ textarea {
 
 .green--text {
     color: #44b312;
+}
+
+.purple--text {
+    color: #564fce;
 }
 
 /* HEADER */
@@ -294,7 +305,7 @@ td.production-item {
 
 .toggle__btn {
     position: absolute;
-    bottom: -98px;
+    bottom: -107px;
     right: -54px;
     z-index: 10;
     cursor: pointer;
@@ -463,9 +474,123 @@ td.production-item {
 
 .plus-block-1, .plus-block-2, .plus-block-3 {
     background: #eeeeee;
-    height: 100px;
+}
+
+.plus-block {
+    text-align: center;
+    color: #666666;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
+
+.plus-block .title {
+    font-family: "Tahoma";
+    font-size: 33px;
+}
+
+.plus-block .title .green--text {
+    font-weight: bold;
+}
+
+.plus-block .list {
+    text-align: left;
+    font-size: 19px;
+    font-family: Tahoma;
+    list-style-image: url("../img/list-img.png");
+    line-height: 2.2;
+}
+
+.plus-block .purple--text {
+    text-transform: uppercase;
+    line-height: 2;
+    font-family: Tahoma;;
+}
+
+.plus-block h3 {
+    color: #666666;
+    font-size: 33px;
+    font-family: Tahoma;
+    font-weight: normal;
+    text-align: center;
+}
+
+.plus-block-2 {
+    text-align: left;
+}
+
+.table-wrapper .table-title-1 {
+    text-align: center;
+    color: #eeefea;
+    font-size: 33px;
+    background: #564fce;
+    
+}
+
+.table-wrapper .table-title-2  {
+    background: #7490ce;
+    color: #fff;
+    text-align: center;
+    font-family: tahoma;
+    font-size: 25px;
+    padding: 6px 0;;
+
+}
+
+.table-wrapper .table-title-2 .green--text {
+    font-weight: bold;
+}
+
+.table-wrapper table {
+    width: 100%;
+    border: 1px solid #666;
+    margin-bottom: 20px;
+    text-align: center;
+    vertical-align: middle;;
+}
+
+.table-wrapper .img__table {
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.inner-table {
+    
+}
+
+.inner-table th {
+    background: #7490ce;
+    font-size: 18px;
+    color: #eeefea;
+    font-weight: normal;
+    text-align: center;
+    border: 1px solid #666;
+
+}
+
+.inner-table tr {
+    height: 56px;
+    border: 1px solid #666;
+    
+}
+
+.inner-table td {
+    border: 1px solid #666;
+
+}
+
+.inner-table-container {
+    padding: 0 118px
+}
+
+.inner-table .th-1 {
+    width: 70px;
+}
+
+.inner-table .th-2, .inner-table .th-3, .inner-table .th-4, .inner-table .th-5 {
+
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
