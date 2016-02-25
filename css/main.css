@@ -95,7 +95,7 @@ textarea {
 
 .req__call__btn {
     width: 240px;
-    height: 60px;
+    height: 45px;
     text-align: center;
     float: right;
     display: block;
@@ -104,8 +104,8 @@ textarea {
     font-family: tahoma;
     color: #fff;
     border-radius: 10px;
-    line-height: 2.8;
-    margin-top: 30px;
+    line-height: 2;
+    margin-top: 25px;
 }
 
 .top-menu {
@@ -135,7 +135,7 @@ textarea {
 .top-menu__link {
     color: #fff;
     font-family: Tahoma;
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
 }
 
@@ -145,7 +145,7 @@ textarea {
 
 .header-contacts {
     float: right;
-    margin-top: 80px;
+    margin-top: 70px;
 
 }
 
@@ -156,7 +156,7 @@ textarea {
 }
 
 .header__phone {
-    font-size: 30px;
+    font-size: 27px;
     font-weight: bold;
     color: #fff;
 
@@ -187,11 +187,11 @@ td.production-item {
 }
 
 .production-item .item-info .item__title {
-    font-size: 22px;
+    font-size: 16px;
 }
 
 .production-item .item-info .item__description {
-    font-size: 19px;
+    font-size: 14px;
     margin-bottom: 0px;
     margin-top: 20px;
 }
@@ -199,22 +199,22 @@ td.production-item {
 .production-items-container {
     display: block;
     padding-top: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 
 }
 
 .white-infoblock .company__name {
     color: #777777;
-    font-size: 39px;
+    font-size: 24px;
     text-align: center;
-    font-weight: normal;
+/*    font-weight: normal;*/
 }
 
 .white-infoblock .company__text {
     color: #777777;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
-    line-height: 2;
+    line-height: 1.2;
 }
 
 .white-infoblock {
@@ -269,19 +269,19 @@ td.production-item {
 }
 
 .mf__title {
-    font-size: 41px;
+    font-size: 22px;
     font-weight: normal;
 }
 
 .mf-left-info p {
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .mf--btn {
     float: left;
     margin-left: 113px;
     clear: both;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .mf-annotation__text {
@@ -349,16 +349,16 @@ td.production-item {
 }
 
 .form__title {
-    font-size: 35px;
+    font-size: 24px;
     color: #666666;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .form__text {
     color: #666666;
-    font-size: 16px;
-    margin-bottom: 100px;
-    margin-top: 30px;
+    font-size: 14px;
+    margin-bottom: 40px;
+    margin-top: 20px;
 
 }
 
@@ -383,11 +383,11 @@ td.production-item {
 }
 
 .form__field {
-    height: 82px;
+    height: 60px;
     width: 97%;
     background: #eeeeee;
     border: none;
-    margin-bottom: 48px;
+    margin-bottom: 20px;
     padding-left: 16px;
     color: #383838;
     position: relative;
@@ -412,22 +412,22 @@ td.production-item {
     background: #eeeeee;
     border: none;
     resize: none;
-    height: 336px;
-    padding-top: 10px;
-    padding-left: 18px;
+    height: 220px;
+    padding-top: 5px;
+    padding-left: 16px;
 
 }
 
 .form__btn__send {
-    width: 240px;
-    height: 60px;
+    width: 200px;
+    height: 45px;
     border-radius: 10px;
     margin: 0 auto;
     border: none;
     color: #fff;
     font-family: "Tahoma";
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .form-btn-wrapper {
