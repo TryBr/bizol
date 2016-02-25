@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/image.css">
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -29,17 +30,17 @@
                     </div>
                     <div class="header-right-info">
                         <ul class="top-menu">
-                            <li class="top-menu__li"><a href="" class="top-menu__link">Муфты</a></li>
+                            <li class="top-menu__li"><a href="#muf" class="scroll top-menu__link">Муфты</a></li>
                             <li class="top-menu__li li--sep">|</li>
-                            <li class="top-menu__li"><a href="" class="top-menu__link">КЗС</a></li>
+                            <li class="top-menu__li"><a href="#kzs" class="scroll top-menu__link">КЗС</a></li>
                             <li class="top-menu__li li--sep">|</li>
-                            <li class="top-menu__li"><a href="" class="top-menu__link">ППМ</a></li>
+                            <li class="top-menu__li"><a href="#ppm" class="scroll top-menu__link">ППМ</a></li>
                             <li class="top-menu__li li--sep">|</li>
-                            <li class="top-menu__li"><a href="" class="top-menu__link">Каталог</a></li>
+                            <li class="top-menu__li"><a href="topmenu/katalog/" class="top-menu__link">Каталог</a></li>
                             <li class="top-menu__li li--sep">|</li>
-                            <li class="top-menu__li"><a href="" class="top-menu__link">Сертификаты</a></li>
+                            <li class="top-menu__li"><a href="sertifikaty" class="top-menu__link">Сертификаты</a></li>
                             <li class="top-menu__li li--sep">|</li>
-                            <li class="top-menu__li"><a href="" class="top-menu__link">Контакты</a></li>
+                            <li class="top-menu__li"><a href="address" class="top-menu__link">Контакты</a></li>
                         </ul>
                         <div class="header-contacts tahoma">
                             <div class="header__phone">
@@ -50,6 +51,7 @@
                     </div>
                 </div>
             </header>
+            
             <!-- END HEADER --> 
             <!-- WHITE INFOBLOCK -->
             <div class="white-infoblock clearfix">
@@ -183,7 +185,7 @@
             </div>
             <!-- END WHITE INFOBLOCK -->
             <!-- MF INFOBLOCK 1 -->
-            <div class="mf-infoblock purple--bg clearfix">
+            <div id="muf" class="mf-infoblock purple--bg clearfix">
                 <div class="container1080 clearfix">
                     <div class="mf-left-info">
                         <h2 class="mf__title">МУФТЫ<br>ТЕРМОУСАЖИВАЕМЫЕ</h2>
@@ -263,7 +265,7 @@
             </div>
             <!-- END PLUS BLOCK 1 -->
             <!-- MF INFOBLOCK 2 -->
-            <div class="mf-infoblock mf-infoblock-2 mf-infoblock--invert clearfix">
+            <div id="kzs" class="mf-infoblock mf-infoblock-2 mf-infoblock--invert clearfix">
                 <div class="container1080 clearfix">
                     <div class="mf-left-info">
                         <h2 class="mf__title">Комплект заделки<br> стыка (КЗС)</h2>
@@ -403,7 +405,7 @@
             </div>
             <!-- END PLUS BLOCK 2 -->
             <!-- MF INFOBLOCK 3 -->
-            <div class="mf-infoblock mf-infoblock-3 purple--bg clearfix">
+            <div id="ppm" class="mf-infoblock mf-infoblock-3 purple--bg clearfix">
                 <div class="container1080 clearfix">
                     <div class="mf-left-info">
                         <h2 class="mf__title">Пенопакет монтажный<br>(ППМ)</h2>
@@ -509,7 +511,8 @@
 
 
         <script src="js/vendor/jquery-1.11.2.min.js"></script>
-        <script type="text/javascript" src="js/vendor/jquery.smooth-scroll.js"></script>
+        <script src="js/vendor/jquery.smooth-scroll.js"></script>
+        <script src="js/vendor/jquery.scrollUp.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>
